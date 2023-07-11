@@ -2,8 +2,8 @@
 
 header {
     background-color: rgba(205, 161, 171, 0.1);
-    width: 1120px;
-height: 430px;
+    width: 1150px;
+
 
 }
 
@@ -90,8 +90,8 @@ height: 430px;
 .life {
     display: flex;
     padding: 115px;
-    width: 970px;
-    height: 300px;
+    width: 870px;
+
 }
 
 .life-history {
@@ -109,17 +109,21 @@ height: 430px;
 
 /* banner-hot ar kag */
 .banner-backside {
-    width: 1122px;
-    height: 420px;
+    width: 1150px;
 }
-
+.hot-color{
+    color: #c43e5b;
+}
 .banner-hot {
     display: flex;
     padding: 145px;
     margin-bottom: 50px;
     gap: 50px;
 }
-
+.Hot-Deal-taitle{
+    font-family: Lato;
+    font-size: 28px; 
+}
 .Hot-Deal {
     text-align: center;
     font-size: 14px;
@@ -136,7 +140,7 @@ height: 430px;
 /* 4-part card ar kag */
 .mimi-part-back {
     background-color: #FFF;
-    
+
 }
 
 .middle-part {
@@ -169,17 +173,54 @@ height: 430px;
     margin-left: 80px;
     text-align: center;
 }
-.image-title{
+
+.image-title {
     padding-top: 80px;
     font-size: 36px;
     margin-bottom: 0px;
 }
-.emaill{
+
+.emaill {
     padding: ;
-width: 400px;
-height: 34px;
+    width: 400px;
+    height: 34px;
 }
-.information{
+
+.information {
     margin-top: 25px;
     align-items: center;
+}
+
+/* footer ar kag */
+footer {
+    background-color: black;
+    width: 1150px;
+    height: 400px;
+}
+
+.footer-heading {
+    color: #E55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    padding-top: 80px;
+}
+.shop{
+    color: #FFF;
+}
+
+.footer-describe {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    padding: 0px 380px;
+}
+
+.small-tag {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
 }
