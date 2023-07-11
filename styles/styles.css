@@ -1,15 +1,17 @@
 /* header related kag */
 
 header {
-    background-color: rgba(171, 50, 77, 0.1);
-    
+    background-color: rgba(205, 161, 171, 0.1);
+    width: 1120px;
+height: 430px;
+
 }
 
 .banner {
     display: flex;
     margin: 0px 140px;
     gap: 150px;
-    
+
 }
 
 .banner-tools {
@@ -55,6 +57,7 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15)
 }
+
 .card-2 {
     width: 264px;
     height: 338px;
@@ -62,6 +65,7 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
+
 .card-3 {
     width: 264px;
     height: 338px;
@@ -77,20 +81,25 @@ header {
     margin-top: 88px;
     padding-left: 50px;
 }
-.card-title{
+
+.card-title {
     padding-left: 75px;
 }
 
 /* <!-- section-2nd part ar kag --> */
-.life{
+.life {
     display: flex;
     padding: 115px;
+    width: 970px;
+    height: 300px;
 }
-.life-history{
+
+.life-history {
     padding: 25px;
     text-align: justify;
 }
-.life-img{
+
+.life-img {
     width: 270px;
     height: 300px;
     flex-shrink: 0;
@@ -99,18 +108,24 @@ header {
 }
 
 /* banner-hot ar kag */
-.banner-hot{
+.banner-backside {
+    width: 1122px;
+    height: 420px;
+}
+
+.banner-hot {
     display: flex;
     padding: 145px;
-    margin-top: 0px;
+    margin-bottom: 50px;
     gap: 50px;
 }
-.Hot-Deal{
+
+.Hot-Deal {
     text-align: center;
-    margin-top: 50px;
     font-size: 14px;
 }
-.Hot-Deal-image{
+
+.Hot-Deal-image {
     width: 188px;
     height: 280px;
 }
@@ -119,19 +134,52 @@ header {
 /* middle-part-nama uppora dawa aca */
 
 /* 4-part card ar kag */
-.mimi-part-back{
-    background-color: rgb(236, 235, 234);
-    margin-top: 0px;
-}
-.card{
-    display: flex;
+.mimi-part-back {
+    background-color: #FFF;
     
 }
-.card-part{
+
+.middle-part {
+    width: 570px;
+    height: 48px;
+}
+
+.card {
+    display: flex;
+    border: 3317px 1338px;
+}
+
+.card-part {
     margin: 20px;
     padding-left: 60px;
 }
-.picture{
+
+.picture {
     width: 170px;
     height: 220px;
+}
+
+/* last-image-part */
+.last-image {
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    height: 300px;
+    width: 980px;
+    margin-left: 80px;
+    text-align: center;
+}
+.image-title{
+    padding-top: 80px;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.emaill{
+    padding: ;
+width: 400px;
+height: 34px;
+}
+.information{
+    margin-top: 25px;
+    align-items: center;
 }
